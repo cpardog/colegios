@@ -1,7 +1,29 @@
+
 table{
     border: 2px red solid;
     color: blue;
     margin: 2px;
+    padding: 5px;
+    border-collapse: collapse;
+}
+tr {
+    border: white 2px solid;
+  }
+  td {
+    border: black 2px solid;
+  }
+  tbody {
+    border: blue 1px solid;
+  }
+  th {
+    border: blue 1px solid;
+    border-collapse: separate;
+  }
+=======
+table{
+    border: 2px red solid;
+    color: blue;
+    margin: 3px;
     padding: 5px;
     border-collapse: collapse;
 }
